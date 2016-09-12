@@ -1,0 +1,92 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background:url(background-cool.png) top right repeat;
+}
+
+#main
+{
+	width: 700px;
+	background: white;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	padding: 30px;
+	margin-left:auto;
+	margin-right:auto;
+	border: 1px solid #adaa9f;
+	-moz-box-shadow: 0 2px 2px #9c9c9c;
+	-webkit-box-shadow: 0 2px 2px #9c9c9c;
+}
+
+.features-table
+{
+  width:700px;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  text-shadow: 0 1px 0 #fff;
+  color: #2a2a2a;
+  background: #fafafa;  
+  background-image: -moz-linear-gradient(top, #fff, #eaeaea, #fff); /* Firefox 3.6 */
+  background-image: -webkit-gradient(linear,center bottom,center top,from(#fff),color-stop(0.5, #eaeaea),to(#fff)); 
+  font-family: Verdana,Arial,Helvetica
+}
+.features-table td
+{
+	padding-top:10px;
+	padding-bottom:10px;
+  border-bottom: 1px solid #cdcdcd;
+  box-shadow: 0 1px 0 white;
+  -moz-box-shadow: 0 1px 0 white;
+  -webkit-box-shadow: 0 1px 0 white;
+}
+
+.col-cell
+{
+  padding-left:20px;
+  padding-right:20px;
+  width: 100%;
+  font: normal 1em Verdana, Arial, Helvetica;  
+}
+
+.col-carac{
+  font: normal 1em Verdana, Arial, Helvetica; 
+  font:bolder;
+  width:150px;
+}
+
+
+.col-cell1, .col-cell2
+{
+  background: #efefef;
+  background: rgba(144,144,144,0.15);
+  border-right: 1px solid white;
+}
+
+
+.col-cellh
+{
+  font: bold 1.3em 'trebuchet MS', 'Lucida Sans', Arial;  
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-topleft: 10px; 
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top: 1px solid #eaeaea !important; 
+  text-align:center;
+}
+
+.col-cellf
+{  
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px; 
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom: 1px solid #dadada !important;
+}
+
+.title{
+margin-top:0;
+padding:0;
+text-align:center;
+}

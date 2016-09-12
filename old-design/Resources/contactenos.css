@@ -1,0 +1,115 @@
+
+/*
+	...::: Parte Contenido :::...
+*/
+
+#banner{
+position:relative;
+height:140px;
+width:950px;
+margin-top:10px;
+margin-left:auto;
+margin-right:auto;
+background-image:url('contactenos-background.jpg');
+}
+
+
+
+#formulario2{
+position:relative;
+height:430px;
+width:950px;
+margin-top:20px;
+margin-left:auto;
+margin-right:auto;
+background-color:white;
+}
+
+#title-form1{
+display:block;
+height:400px;
+width:450px;
+float:left;
+border:2px solid black;
+margin:18px;
+margin-left:40px;
+}
+
+#form1{
+margin:40px;
+}
+
+.button{
+position:relative;
+left:100px;
+margin:30px;
+margin-top:140px;
+
+}
+
+#form2{
+height:70px;
+width:270px;
+float:right;
+margin:40px;
+display:block;
+margin-right: 100px;
+border:2px solid black;
+}
+
+.fono{
+text-align:center;
+position:relative;
+margin-top:25px;
+}
+
+#title-form3{
+display:block;
+height:230px;
+width:270px;
+float:right;
+border:2px solid black;
+margin-right:100px;
+}
+
+#form3{
+margin:30px;
+
+}
+
+#title-form1 h2{
+height:25px;
+width:280px;
+display:block;
+position:relative;
+bottom:16px;
+border:2px solid black;
+text-align:center;
+}
+
+#title-form3 h2{
+height:25px;
+width:160px;
+display:block;
+position:relative;
+bottom:15px;
+border:2px solid black;
+text-align:center;
+}
+
+
+#form1 li{
+list-style:none;
+margin:11px;
+}
+
+li input{
+position:absolute;
+left:180px;
+}
+
+textarea{
+position:absolute;
+left:180px;
+}
+

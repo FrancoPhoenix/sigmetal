@@ -1,0 +1,194 @@
+
+/*Parte Menu medio*/
+
+#container{
+position:relative;
+float:left;
+font-size:1.2em;
+margin:10px 2em;
+margin-top:20px;
+margin-right:12em;
+height:200px;
+width: 9.5em;
+color:white;
+}
+
+#rotulo{
+position:relative;
+width:775px;
+height:17px;
+top:156px;
+left:190px;
+}
+.titulo{
+text-align: left;
+color:blue;
+font-size:18px;
+}
+
+
+
+
+#switcher{
+position:relative;
+width:140px;
+height:300px;
+margin-left: -10px;
+top:5px;
+background-color:white;
+padding:12px;
+font-size: .9em;
+}
+
+#switcher .button{
+
+font-weight:bold;
+width:100px;
+float:left;
+text-align:center;
+margin:10px;
+padding:5px;
+color: white;
+background-color:#91bd09;
+border-top: 4px solid #91bd09;
+border-left: 4px solid #91bd09;
+border-bottom: 3px solid #91bd09;
+border-right: 3px solid #91bd09;
+
+}
+
+#switcher .button:hover{
+text-decoration:none;
+cursor:pointer;
+background-color: #91bd09;
+border-bottom: 3px solid #91bd09;
+border-right: 3px solid #91bd09;
+color:white;
+}
+
+#switcher .button:active{
+color:white;
+}
+
+/*Parte contenido del menu*/
+
+
+#picture{
+position: relative;
+float : right;
+margin-left:40px;
+margin-right:20px;
+width:140px;
+height:200px;
+}
+
+#modelo{
+width: 720px;
+position:absolute;
+margin-top:165px;
+margin-left:200px;
+z-index:4;
+color:black;
+background:white;
+}
+
+#banner{
+position:relative;
+top:-14px;
+height:140px;	
+width: 950px;
+margin-left:-10px;
+background:url(quienessomos-background.jpg);
+
+}
+
+
+
+.details{
+font-size:18px;
+text-decoration:underline;
+top:4px;
+margin-left:-10px;
+}
+
+
+#lineamientos{
+font-size:16px;
+top:30px;
+}
+
+
+
+.details2{
+top:10px;
+text-align:justify;
+font-size:14px;
+margin-right:110px;
+margin-left:-30px;
+}
+
+#details.h2{
+text-decoration:underline;
+
+}
+
+h2{
+font-size: 1.2em;
+margin-bottom: 0;
+}
+/*Parte boton carac*/
+
+
+.button-awesome{
+position:absolute;
+border-bottom: 3px solid white;
+position:relative;
+width:200px;
+padding:2px;
+PADDING-RIGHT: 3px; PADDING-LEFT: 3px; 
+PADDING-BOTTOM: 3px; PADDING-TOP: 3px;
+}
+.awesome, .awesome:visited {
+font-size:13px;
+-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+background: #749a02 url(alert-overlay.png) repeat-x;
+display: inline-block;
+padding: 5px 10px 6px;
+color:white;
+
+text-decoration: none;
+font-weight: bold;
+line-height: 1;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+border-bottom: 1px solid rgba(0,0,0,0.25);
+position: relative;
+cursor: pointer;
+
+}
+
+.awesome:hover{ background-color: white; color: white; }
+.awesome:active{ top: 1px; }
+
+.none{
+text-decoration:none;
+}
+
+/*Parte media info*/
+#cloak{
+width: 700px;
+position:absolute;
+margin-top:160px;
+margin-left:200px;
+opacity:0.3;
+z-index:1;
+}

@@ -1,0 +1,310 @@
+/*parte medio*/
+
+#gallery-pre{
+position:relative;
+height:590px;
+width:950px;
+margin-top:10px;
+margin-left:auto;
+margin-right:auto;
+}
+#tituloF{
+text-decoration:none;
+}
+
+
+#group1{
+
+position:absolute;
+top:55px;
+left:25px;
+width:900px;
+height:120px;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+background:url(background-starblue.jpg);
+z-index:4;
+}
+#sub{
+height: 120px;
+width: 120px;
+float: left;
+text-align:center;
+background:url(background-white.jpg);
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+}
+
+#imagen11{
+position:absolute;
+left:210px;
+top:10px;
+width:100px;
+height:100px;
+clear:both;
+z-index:10;
+}
+#imagen12{
+position:absolute;
+left:330px;
+top:10px;
+width:100px;
+height:100px;
+clear:both;
+z-index:10;
+}
+#imagen13{
+position:absolute;
+left:450px;
+top:10px;
+width:100px;
+height:100px;
+clear:both;
+z-index:10;
+}
+
+#imagen14{
+position:absolute;
+left:570px;
+top:10px;
+width:100px;
+height:100px;
+clear:both;
+z-index:10;
+}
+
+#imagen15{
+position:absolute;
+left:690px;
+top:10px;
+width:100px;
+height:100px;
+clear:both;
+z-index:10;
+}
+
+#group2{
+position:absolute;
+top:190px;
+left:25px;
+width:900px;
+height:120px;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+background:url(background-starblue.jpg);
+z-index:4;
+}
+
+#imagen21{
+position:absolute;
+left:210px;
+top:10px;
+width:100px;
+height:100px;
+clear:both;
+z-index:10;
+}
+#imagen22{
+position:absolute;
+left:330px;
+top:10px;
+width:100px;
+height:100px;
+clear:both;
+z-index:10;
+}
+#imagen23{
+position:absolute;
+left:450px;
+top:10px;
+width:100px;
+height:100px;
+clear:both;
+z-index:10;
+}
+
+#imagen24{
+position:absolute;
+left:570px;
+top:10px;
+width:100px;
+height:100px;
+clear:both;
+z-index:10;
+}
+
+#imagen25{
+position:absolute;
+left:690px;
+top:10px;
+width:100px;
+height:100px;
+clear:both;
+z-index:10;
+}
+
+#group3{
+position:absolute;
+background:url(background-starblue.jpg);
+height:120px;
+width:900px;
+top:325px;
+margin-left:25px;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+z-index:4;
+}
+
+
+#imagen31{
+position:absolute;
+left:210px;
+top:10px;
+width:100px;
+height:100px;
+clear:both;
+z-index:10;
+}
+#imagen32{
+position:absolute;
+left:330px;
+top:10px;
+width:100px;
+height:100px;
+clear:both;
+z-index:10;
+}
+#imagen33{
+position:absolute;
+left:450px;
+top:10px;
+width:100px;
+height:100px;
+clear:both;
+z-index:10;
+}
+
+#imagen34{
+position:absolute;
+left:570px;
+top:10px;
+width:100px;
+height:100px;
+clear:both;
+z-index:10;
+}
+
+#imagen35{
+position:absolute;
+left:690px;
+top:10px;
+width:100px;
+height:100px;
+clear:both;
+z-index:10;
+}
+
+#group4{
+position:absolute;
+background:url(background-starblue.jpg);
+height:120px;
+width:900px;
+top:461px;
+margin-left:25px;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+z-index:4;
+}
+
+#imagen41{
+position:absolute;
+left:210px;
+top:10px;
+width:100px;
+height:100px;
+clear:both;
+z-index:10;
+}
+#imagen42{
+position:absolute;
+left:330px;
+top:10px;
+width:100px;
+height:100px;
+clear:both;
+z-index:10;
+}
+#imagen43{
+position:absolute;
+left:450px;
+top:10px;
+width:100px;
+height:100px;
+clear:both;
+z-index:10;
+}
+
+#imagen44{
+position:absolute;
+left:570px;
+top:10px;
+width:100px;
+height:100px;
+clear:both;
+z-index:10;
+}
+
+#imagen45{
+position:absolute;
+left:690px;
+top:10px;
+width:100px;
+height:100px;
+clear:both;
+z-index:10;
+}
+
+/*Parte text cool design*/
+
+h2 {
+	font-size:120%;
+	color:#004161;
+	font-weight:bold;
+	letter-spacing:-.05em;
+	position:relative;
+	margin:.6em 0;
+	padding-top:1px; /* use top padding to adjust the start of the gradient  */
+	width:100%;
+	top:45px;
+}
+
+h2 span{
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background:url(gradient_1.png) repeat-x;
+}
+
+.gradient4 {
+	background: #000 url(gradient4-bg.png) repeat-x left bottom;
+	text-align:center;
+}
+.gradient4 h1 {
+	font: normal 90% "Lucida Grande", Arial, sans-serif;
+	position: relative;
+	margin-top:-15px;
+	color: #fff;
+	overflow:hidden;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.gradient4 span {
+	background: url(gradient-dark.png) repeat-x;
+	position: absolute;
+	bottom: -0.1em;
+	display: block;
+	width: 100%;
+	height: 29px;
+}
